@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article."
+title: "Fallback Strategy Matters More Than Architecture: A Reliability-Oriented Evaluation of Deep Learning Forecasters for Solar Generation and Electrical Load"
+authors:
+  - family-names: "ALHAJAHMAD"
+    given-names: "Bashar"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Siirt University, Turkey"
+    orcid: "https://orcid.org/0009-0009-3455-7206"
+repository-code: "https://github.com/Dr-Bashar-Uni-Hub/LSTA"
+license: MIT
+date-released: "2026-10-17"

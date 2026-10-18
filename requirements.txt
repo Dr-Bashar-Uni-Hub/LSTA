@@ -1,0 +1,6 @@
+# Offline analysis (analysis/), tested with Python 3.12
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+matplotlib>=3.8
+# GPU notebooks additionally use (Google Colab): tensorflow, keras, torch, and the official PatchTST repository
