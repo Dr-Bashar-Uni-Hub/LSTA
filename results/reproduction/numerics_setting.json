@@ -1,0 +1,10 @@
+{
+  "tensorflow_setting": "GPU_TF32_on (TF default on A100)",
+  "tf_version": "2.21.0",
+  "keras_version": "3.13.2",
+  "torch_version": "2.11.0+cu130",
+  "gate_revision": "TF metric-level gate after B2b diagnostic",
+  "tf_max_abs_dRMSE_clean_MW": 0.19332415346229936,
+  "pt_max_pointwise_clean_MW": 0.009796176273084711,
+  "gate2_max_abs_diff_MW": 1.202763170502294
+}

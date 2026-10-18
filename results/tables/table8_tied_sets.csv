@@ -1,0 +1,7 @@
+h,Target,Lowest-RMSE model,Statistically tied set
+1,Load,PatchTST,"PatchTST, MTL-LSTA"
+1,Solar,DLinear,DLinear
+6,Load,PatchTST,"PatchTST, ST-GAP, MTL-LSTA"
+6,Solar,PatchTST,PatchTST
+24,Load,PatchTST,PatchTST
+24,Solar,PatchTST,"PatchTST, ST-GAP"

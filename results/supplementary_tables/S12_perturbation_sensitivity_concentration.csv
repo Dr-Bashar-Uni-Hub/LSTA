@@ -1,0 +1,6 @@
+Model,Load: last 24 h,Load: last 72 h,Solar: last 24 h,Solar: last 72 h
+LSTM,99.97,100.00,99.99,100.00
+ST,95.89,97.49,95.85,97.85
+MTL-LSTA,97.78,98.95,99.46,99.46
+PatchTST,89.57,93.69,94.64,96.26
+DLinear,79.66,89.40,80.50,89.80
