@@ -1,5 +1,7 @@
 # Fallback Strategy Matters More Than Architecture
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24352756.svg)](https://doi.org/10.5281/zenodo.24352756)
+
 Code, saved predictions, and reproduction material for the article:
 
 > Bashar ALHAJAHMAD. *Fallback Strategy Matters More Than Architecture: A Reliability-Oriented Evaluation of Deep Learning Forecasters for Solar Generation and Electrical Load.* Submitted to *Sustainable Energy, Grids and Networks* (2026).
@@ -60,7 +62,7 @@ Raw data: Open Power System Data, *Data Package Time Series*, version 2020-10-06
 
 ## Citation
 
-Please cite the article (see `CITATION.cff`) and the Open Power System Data package.
+Please cite the article and the archived code and data: ALHAJAHMAD, B. (2026). *Fallback Strategy Matters More Than Architecture* (Version v1.0.0) [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.24352756. Please also cite the Open Power System Data package.
 
 ## License
 
