@@ -16,7 +16,16 @@ Processed one-hour dataset (`frozen_168h_sequences.npz`, created by the notebook
 | `frozen_predictions_all_MW.npz` | Original-protocol test predictions for all models, horizons (1, 6, 24 h), and seeds (1, 7, 21, 42, 100); keys `h{h}__{model}__s{seed}` (6,576 × 2: load, solar), observed targets `y_true_h{h}`, and the one-hour input history `X_dyn_h1_MW` (6,576 × 168 × 2) |
 | `stageC/*_test_predictions_MW.npz` | Corrected (uncapped) PatchTST and DLinear runs: `pred_uncapped`, the replayed best-within-50-epochs checkpoint `pred_within50`, and `y_true` |
 | `stageB_degraded_predictions_MW.npz` | One-hour predictions under clean inputs, forward fill, and seasonal fill for gaps of 1, 3, 5, 6, 12, 23, 24 h; keys `{model}__s{seed}__{condition}` |
+| `austria/AT_predictions_all_MW.npz` | Austria: test predictions for all models, horizons, seeds (6,570 targets), observed targets, one-hour input history |
+| `austria/AT_degraded_predictions_MW.npz` | Austria: one-hour predictions under forward and seasonal fill (gaps 1–24 h) |
 | `random_degradation_masks.npz` | The five nested random-masking replicates at 10%, 30%, 50% (True = masked) |
 
 All values are in MW. Model names: `LSTM`, `ST-GAP` (= ST), `MTL-LSTA`, `PatchTST`, `DLinear`, `ST-LSTA`, `MTL-GAP`.
 The arrays are derived from OPSD data, which aggregates sources such as the ENTSO-E Transparency Platform; please cite OPSD and respect the terms of the original sources.
+
+## Added for the SEGAN revision
+| File | Content |
+|---|---|
+| `ridge_predictions_MW.npz` | Ridge test predictions `{DE,AT}_h{1,6,24}` and targets `{DE,AT}_y_h{h}` (MW) |
+| `stageE/*_test_predictions_MW.npz` | Matched-block MTL-GAP and MTL-LSTA reruns (`pred_MW`, `y_true_MW`) |
+| `raw/` (not included) | Place the OPSD file `time_series_60min_singleindex.csv` (release 2020-10-06) here to run `analysis/06_ridge_baseline.py` |
